@@ -2,6 +2,15 @@ DROP DATABASE IF EXISTS employees;
 CREATE DATABASE employees;
 USE employees;
 
+CREATE TABLE roles (
+    id INT NOT NULL AUTO_INCREMENT,
+    title VARCHAR(30),
+    salary DECIMAL,
+    department_id INT,
+    PRIMARY KEY (id),
+    FOREIGN KEY (department_id) REFERENCES department(id)
+);
+
 CREATE TABLE employee (
     id INT NOT NULL AUTO_INCREMENT,
     first_name VARCHAR(30),
