@@ -4,12 +4,12 @@ VALUES ('Customer Service'),
     ('Engineering');
 
 INSERT INTO roles (title, salary, department_id)
-VALUES ('Customeer Service Lead', 250000, 1),
-    ('Customer Service', 7000, 3),
-    ('Idea Creator Lead', 100000, 2),
+VALUES ('Customeer Service Lead', 290000, 1),
+    ('Customer Service', 75000, 3),
+    ('Idea Creator Lead', 105000, 2),
     ('Idea Creator', 70000, 2),
-    ('Lead Engineer', 150000, 3),
-    ('Engineer', 120000, 3);
+    ('Lead Engineer', 190000, 3),
+    ('Engineer', 130000, 3);
 
 INSERT INTO employee (
         first_name,
