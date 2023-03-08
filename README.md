@@ -12,7 +12,7 @@ Employee Tracker
   * [LiveApp](#liveapp)
 
   ## Description
-    This application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
+    This application allows you to view and modify an employee database.
 
   ## License 
     N/A
