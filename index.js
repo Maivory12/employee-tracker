@@ -18,7 +18,7 @@ const promptUser = () => {
                         viewAllEmp();
                         break;
                     case 'View All Employees By Department':
-                        viewEmpByDep();
+                        viewEmpByDept();
                         break;
                     case 'View All Employees By Manager':
                         viewEmpByMngt();
@@ -33,7 +33,7 @@ const promptUser = () => {
                         viewDept();
                         break;
                     case 'Add Department':
-                        addDep();
+                        addDept();
                         break;
                     case 'View Roles':
                         viewRoles();
@@ -42,7 +42,7 @@ const promptUser = () => {
                         addRole();
                         break;
                     case 'View totalized budget':
-                        addTotalByDep();
+                        addTotalByDept();
                         break;
                     case 'I am finished':
                         break;
@@ -52,10 +52,10 @@ const promptUser = () => {
     
     
     module.exports = { promptUser } 
-    const { viewAllEmp, viewEmpByDep, viewEmpByMngt, addEmp, upEmp } = require('./lib/employee');  
-    const { viewDept, addDep } = require('./lib/department');
+    const { viewAllEmp, viewEmpByDept, viewEmpByMngt, addEmp, upEmp } = require('./lib/employee');  
+    const { viewDept, addDept } = require('./lib/department');
     const { viewRoles, addRole } = require('./lib/roles');
-    const { addTotalByDep } = require('./lib/calculations');
+    const { addTotalByDept } = require('./lib/calculations');
 
 
     promptUser()
